@@ -5,6 +5,7 @@ export default function Button(props) {
     <button
       onClick={props.onClick}
       className={props.className}
+      title={props.title}
     >
       {props.children}
     </button>
