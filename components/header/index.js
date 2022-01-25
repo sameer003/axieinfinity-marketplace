@@ -15,7 +15,7 @@ export default function Header() {
       </h4>
       <div
         onClick={() =>
-          window.open(`https://marketplace.axieinfinity.com`, "_blank")
+          window.open(`https://marketplace.axieinfinity.com/login/`, "_blank")
         }
         className="fixed right-0 top-0 py-3 px-6 bg-blue-600 cursor-pointer flex items-center"
       >
