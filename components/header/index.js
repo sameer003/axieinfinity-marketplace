@@ -13,13 +13,13 @@ export default function Header() {
       <h4 className="flex items-center cursor-pointer">
         <BsShopWindow className="mr-1" /> Axie Infinity - Marketplace 2.0
       </h4>
-      <div className="fixed right-0 top-0 py-3 px-6 bg-blue-600 cursor-pointer flex items-center">
-        <FiLogIn className="mr-1" onClick={() =>
-          window.open(
-            `https://marketplace.axieinfinity.com`,
-            "_blank"
-          )
-        } />
+      <div
+        onClick={() =>
+          window.open(`https://marketplace.axieinfinity.com`, "_blank")
+        }
+        className="fixed right-0 top-0 py-3 px-6 bg-blue-600 cursor-pointer flex items-center"
+      >
+        <FiLogIn className="mr-1" />
         Login
       </div>
     </header>
